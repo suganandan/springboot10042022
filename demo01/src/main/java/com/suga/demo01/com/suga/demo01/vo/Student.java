@@ -2,6 +2,7 @@ package com.suga.demo01.com.suga.demo01.vo;
 
 public class Student {
 private String userName;
+private String password;
 
 public String getUserName() {
 	return userName;
@@ -9,5 +10,13 @@ public String getUserName() {
 
 public void setUserName(String userName) {
 	this.userName = userName;
+}
+
+public String getPassword() {
+	return password;
+}
+
+public void setPassword(String password) {
+	this.password = password;
 }
 }
